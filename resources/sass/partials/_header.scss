@@ -10,6 +10,13 @@ a {
     margin: 18px;
 }
 
+a:hover {
+    color: $firstcolor;
+}
+
+.active {
+    color: $firstcolor;
+}
 header img {
     margin-right: 40px;
     max-width: 70px;

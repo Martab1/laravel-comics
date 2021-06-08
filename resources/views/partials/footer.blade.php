@@ -3,7 +3,7 @@
 
     <div class="footer container flex">
          <button class="empty-btn btn"> sign up now! </button>
-         <ul>
+         <ul class="flex">
              <h5>follow us</h5>
              <li> <a href="#"> <img src="{{asset('images/footer-facebook.png')}}" alt=""> </a></li>
              <li> <a href="#"> <img src="{{asset('images/footer-twitter.png')}}" alt=""> </a></li>

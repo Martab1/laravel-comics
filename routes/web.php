@@ -13,8 +13,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+// HOME COMICS
 Route::get('/', function () {
-    
     // comics database in config
     $comics = config('dc-database');
     // dump($comics);

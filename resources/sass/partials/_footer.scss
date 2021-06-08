@@ -11,4 +11,16 @@ footer {
 .footer {
     display: flex;
     justify-content: space-between;
+    padding: 30px;
+}
+
+.footer li img {
+    width: 30px;
+}
+
+h5 {
+    font-size: 20px;
+    font-weight: 800;
+    color: $firstcolor;
+    text-transform: uppercase;
 }

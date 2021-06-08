@@ -58,6 +58,14 @@ a {
   margin: 18px;
 }
 
+a:hover {
+  color: dodgerblue;
+}
+
+.active {
+  color: dodgerblue;
+}
+
 header img {
   margin-right: 40px;
   max-width: 70px;
@@ -65,6 +73,7 @@ header img {
 
 main {
   background: rgba(0, 0, 0, 0.863);
+  min-height: 500px;
 }
 
 .cards {
@@ -108,4 +117,32 @@ footer {
 .footer {
   display: flex;
   justify-content: space-between;
+  padding: 30px;
+}
+
+.footer li img {
+  width: 30px;
+}
+
+h5 {
+  font-size: 20px;
+  font-weight: 800;
+  color: dodgerblue;
+  text-transform: uppercase;
+}
+
+.box {
+  color: #fff;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 40px 0;
+}
+
+h2 {
+  text-transform: uppercase;
+}
+
+p {
+  line-height: 25px;
+  padding: 10px;
 }
