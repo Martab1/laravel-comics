@@ -5,6 +5,12 @@
     font-family: sans-serif;
 }
 
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
 a {
     text-decoration: none;
     color: rgb(48, 45, 45);
