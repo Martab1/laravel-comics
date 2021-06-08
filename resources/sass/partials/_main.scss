@@ -1,0 +1,29 @@
+main {
+    background: rgba(0, 0, 0, 0.863);
+}
+
+.cards {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 60px 0;
+}
+.card {
+    margin: 30px 15px;
+    width: 170px;
+}
+.card img {
+    width: 170px;
+}
+
+h4 {
+    color: $lightColor;
+    font-weight: 400;
+    font-size: 13px;
+    margin-top: 20px;
+}
+
+.btn-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

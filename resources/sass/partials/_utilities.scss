@@ -1,0 +1,30 @@
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 1.3rem;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.full-btn {
+    padding: 10px 50px;
+    background: $firstcolor;
+    font-weight: 600;
+    border: none;
+    margin-bottom: 30px;
+}
+
+.empty-btn {
+    padding: 10px;
+    border: 2px solid $firstcolor;
+    background: transparent;
+}
+
+.btn {
+    cursor: pointer;
+    color: $lightColor;
+    text-transform: uppercase;
+}

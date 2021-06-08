@@ -1,0 +1,14 @@
+footer {
+    background: rgb(56, 56, 56);
+}
+
+.bar {
+    width: 100vw;
+    height: 15px;
+    background: $firstcolor;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,0 +1,111 @@
+/***************************************
+APP STYLE
+****************************************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #302d2d;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 1.3rem;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.full-btn {
+  padding: 10px 50px;
+  background: dodgerblue;
+  font-weight: 600;
+  border: none;
+  margin-bottom: 30px;
+}
+
+.empty-btn {
+  padding: 10px;
+  border: 2px solid dodgerblue;
+  background: transparent;
+}
+
+.btn {
+  cursor: pointer;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+header {
+  background-color: #fff;
+  padding: 20px;
+}
+
+ul li {
+  list-style: none;
+  text-transform: uppercase;
+}
+
+a {
+  margin: 18px;
+}
+
+header img {
+  margin-right: 40px;
+  max-width: 70px;
+}
+
+main {
+  background: rgba(0, 0, 0, 0.863);
+}
+
+.cards {
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 60px 0;
+}
+
+.card {
+  margin: 30px 15px;
+  width: 170px;
+}
+
+.card img {
+  width: 170px;
+}
+
+h4 {
+  color: #fff;
+  font-weight: 400;
+  font-size: 13px;
+  margin-top: 20px;
+}
+
+.btn-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+  background: #383838;
+}
+
+.bar {
+  width: 100vw;
+  height: 15px;
+  background: dodgerblue;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
